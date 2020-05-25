@@ -1,0 +1,300 @@
+body{
+	margin:0 auto;
+	font-family: "標楷體";
+	font-size:30px;
+	background-color: #808080;
+	color:white;
+}
+aside{
+	float:left;
+	width:30%;
+	background-color:#ECD444;	
+	position:fixed;
+	color:black;
+}
+section{
+	float:right;
+	width:70%;
+	background-color:#808080;
+	height:1800px;
+}
+.dpic{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.name{
+	font-size: 40px;
+}
+.school{
+	font-size: 20px;
+	float: right;
+}
+.intro{
+	font-size: 25px;
+	margin-left:20px;
+	line-height:50px;
+}
+.quote{
+	margin-left:23%;
+}
+.web{
+	text-decoration: none;
+	color:#444444;
+	font-size: 20px;
+	padding:10px 20px;
+	border:1px solid #444444;
+	border-radius: 20px;
+}
+.web:hover{
+	background-color:#808080;
+	color:white;
+	border:0;
+	font-weight:bold;
+}
+.contact{
+	margin-left:20px;
+}
+.pic{
+	width: 30px;
+	height: 30px;
+}
+.title{
+	padding:5px 40%;
+	font-size:35px;
+	color:;
+	text-shadow: 0.3em 0.3em 0.07em #333;
+}
+.c1{
+	float: left;
+	margin-left:70px;
+	font-size: 25px;
+}
+.c2{
+	float: right;
+	margin-right: 25%;
+	font-size: 25px;
+}
+.p{
+	width: 200px;
+	height:20px;
+	background-color: white;
+	position: relative;
+	left:95px;
+	top:-30px;
+	border-radius:13px;
+	border:3px solid white;
+	
+}
+.p::before{
+	position:absolute;
+  	height: 100%;
+  	content: '';
+  	color: gray;
+  	font-size: 20px;
+  	border-radius:10px;
+  	padding-right:10px;
+  	text-align: right;
+}
+.C::before{
+	width: 70%;
+	content:'70%';
+	animation: C 3s forwards;
+	background-color:#FFCCCC;
+}
+.java::before{
+	width: 80%;
+	content:'80%';
+	animation: java 3s forwards;	
+	background-color: #BBFFEE;
+}
+.python::before{
+	width: 70%;
+	content:'70%';
+	animation: python 3s forwards;
+	background-color: #CCBBFF;
+}
+.html::before{
+	width: 80%;
+	content:'80%';
+	animation: html 3s forwards;
+	background-color: #FFFFBB;
+}
+.css::before{
+	width: 70%;
+	content:'70%';
+	animation: css 3s forwards;
+	background-color: #FFB3FF;
+}
+.js::before{
+	width: 50%;
+	content:'50%';
+	animation: js 3s forwards;
+	background-color: #FFDDAA;
+}
+@keyframes C{
+  from{
+    width: 0
+  }
+  to{
+    width: 70%
+  }
+}
+@keyframes java{
+  from{
+    width: 0
+  }
+  to{
+    width: 75%
+  }
+}
+@keyframes python{
+  from{
+    width: 0
+  }
+  to{
+    width: 70%
+  }
+}
+@keyframes html{
+  from{
+    width: 0
+  }
+  to{
+    width: 80%
+  }
+}
+@keyframes css{
+  from{
+    width: 0
+  }
+  to{
+    width: 70%
+  }
+}
+@keyframes js{
+  from{
+    width: 0
+  }
+  to{
+    width: 50%
+  }
+}
+.experience{
+	clear:both;
+	height:500px;
+}
+
+.cake{
+	width:300px;
+	height:200px;
+}
+.manage{
+	width:310px;
+	height:503px;
+}
+.chips{
+	width:300px;
+	height:200px;
+	
+}
+.container1,.container3{
+	width:400px;
+	height:300px;
+	margin-left:100px;	
+	position:relative;
+}
+
+.container2{
+	width:400px;
+	height:520px;
+	position:relative;
+	left:500px;
+	top:-601px;
+}
+.container4{
+	width:700px;
+	height:247px;
+	position:relative;
+	top:-500px;
+	left:100px;
+}
+.flipBox1,.flipBox3{
+	position:relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    width:340px;
+    height:210px;	
+}
+.flipBox2{
+	position:relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+   	width:380px;
+    height:447px;	
+}
+.flipBox4{
+	position:relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    width:600px;
+	height:329px;
+	margin-left:60px;
+}
+.pic {
+    backface-visibility: hidden;
+}
+.back {
+    transform: rotateY(180deg);
+    position:relative;
+    top:-239px;
+    background-color:#808080;
+    width:300px;
+    height:200px;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+.bac1 {
+    transform: rotateY(180deg);
+    position:relative;
+    top:-542px;
+    background-color:#808080;
+	width:310px;
+	height:503px;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+.four{
+	top:-368px;
+	width:600px;
+	height:329px;
+}
+.container1:hover .flipBox1 {
+ 	transform: rotateY(-180deg);
+}
+.container2:hover .flipBox2 {
+ 	transform: rotateY(-180deg);
+}
+.container3:hover .flipBox3 {
+ 	transform: rotateY(-180deg);
+}
+.container4:hover .flipBox4 {
+ 	transform: rotateY(-180deg);
+}
+.club{
+	position:relative;
+	top:-500px;
+	left:110px;
+}
+.cookie{
+	width:600px;
+	height:329px;
+}
+.footer{
+	font-size:20px;
+	margin-left:25%;
+}

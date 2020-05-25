@@ -1,0 +1,176 @@
+.skill{
+	height:13%;
+}
+.skill1{
+	width:250px;
+	height:200px;
+	position:relative;
+	text-align:center;
+}
+.skill2{
+	width:250px;
+	height:200px;
+	position:relative;
+	left:200px;
+	top:-200px;
+	text-align:center;
+}
+.skill3{
+	width:250px;
+	height:200px;
+	position:relative;
+	left:400px;
+	top:-400px;
+	text-align:center;
+}
+.skill4{
+	width:250px;
+	height:200px;
+	position:relative;
+	left:600px;
+	top:-600px;
+	text-align:center;
+}
+.tc{
+	margin-left:50px;
+}
+.bc{
+	margin-left:50px;
+}
+.box{
+  position: relative;
+  margin-left:120px;
+}
+.content {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:#808080;
+  z-index: 5;
+  position:absolute;
+  top:10px;
+  left:-20px;
+}
+.bg1{
+  width: 60px;
+  height: 120px;
+  border-radius: 120px 0 0 120px;
+  z-index: 3;
+  background:	#D0D0D0;
+  position:relative;
+  left:-30px;
+}
+.bg2{
+  width: 60px;
+  height: 120px;
+  border-radius: 0px 120px 120px 0;
+  z-index: 1;
+  background:	#D0D0D0;
+  position:relative;
+  top:-120px;
+  left:30px;
+}
+.pr1{
+  width: 60px;
+  height: 120px;
+  border-radius: 0px 120px 120px 0px;
+  z-index:2;
+  background:#FFF4C1;
+  transform: rotate(-180deg);
+  transform-origin: 0px 60px;
+  animation: pr1A 5s linear forwards;
+  position:relative;
+  top:-240px;
+  left:30px;
+}
+.pr2{
+  border-radius: 0px 120px 120px 0px;
+  z-index: 4;
+  background:#FFF4C1;
+  transform: rotate(-180deg);
+  transform-origin: 0px 60px;
+  position:relative;
+  top:-360px;
+  left:30px;
+}  
+.c{
+	animation: prc 5s linear forwards;
+}
+.s{
+	animation: prs 5s linear forwards;
+}
+.l{
+	animation: prl 5s linear forwards;
+}
+.w{
+	animation: prw 5s linear forwards;
+}
+  
+@keyframes pr1A {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50%
+  {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes prc {
+  0% {
+    transform: rotate(-72deg);
+  }
+  50%
+  {
+    transform: rotate(0deg);
+  }
+  100%{
+    width: 60px;
+    height: 120px;
+    transform: rotate(108deg);
+  }
+}
+@keyframes prs {
+  0% {
+    transform: rotate(-144deg);
+  }
+  50%
+  {
+    transform: rotate(0deg);
+  }
+  100%{
+    width: 60px;
+    height: 120px;
+    transform: rotate(36deg);
+  }
+}
+@keyframes prl {
+  0% {
+    transform: rotate(-144deg);
+  }
+  50%
+  {
+    transform: rotate(0deg);
+  }
+  100%{
+    width: 60px;
+    height: 120px;
+    transform: rotate(36deg);
+  }
+}
+@keyframes prw {
+  0% {
+    transform: rotate(-108deg);
+  }
+   50%
+  {
+    transform: rotate(0deg);
+  }
+  100%{
+    width: 60px;
+    height: 120px;
+    transform: rotate(72deg);
+  }
+}

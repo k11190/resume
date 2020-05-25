@@ -8,6 +8,7 @@ body{
 aside{
 	float:left;
 	width:30%;
+	height:100%;
 	background-color:#ECD444;	
 	position:fixed;
 	color:black;
